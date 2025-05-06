@@ -15,6 +15,7 @@ public class Client {
             System.out.println("Comandi disponibili:");
             System.out.println("SEARCH_COMUNE <nome_comune>");
             System.out.println("SEARCH_POSITION <longitudine> <latitudine>");
+            System.out.println("SEARCH_PROVINICIA <provinicia>");
             System.out.println("CTRL+C per uscire");
 
             String userInput;

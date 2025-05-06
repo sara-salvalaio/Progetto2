@@ -6,13 +6,15 @@ public class ParametriCSV implements Serializable {
     public String comune;
     public int longitudine;
     public int latitudine;
+    public String anno;
 
-    public ParametriCSV(String regione, String provincia, String comune, int longitudine, int latitudine) {
+    public ParametriCSV(String regione, String provincia, String comune, int longitudine, int latitudine, String anno) {
         this.regione = regione;
         this.provincia = provincia;
         this.comune = comune;
         this.longitudine = longitudine;
         this.latitudine = latitudine;
+        this.anno = anno;
     }
 
     public String getRegione() {
@@ -55,6 +57,13 @@ public class ParametriCSV implements Serializable {
         this.latitudine = latitudine;
     }
 
+    public String getAnno() {
+        return anno;
+    }
+    public void setAnno(String anno) {
+        this.anno = anno;
+    }
+
     @Override
     public String toString() {
         return "ParametriCSV{" +
@@ -63,6 +72,7 @@ public class ParametriCSV implements Serializable {
                 ", comune='" + comune + '\'' +
                 ", longitudine=" + longitudine +
                 ", latitudine=" + latitudine +
+                ", anno='" + anno + '\'' +
                 '}';
     }
 }
