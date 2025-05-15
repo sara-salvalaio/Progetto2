@@ -16,6 +16,8 @@ public class Client {
             System.out.println("SEARCH_COMUNE <nome_comune>");
             System.out.println("SEARCH_POSITION <longitudine> <latitudine>");
             System.out.println("SEARCH_PROVINICIA <provinicia>");
+            System.out.println("SEARCH_REGIONE <regione>");
+            System.out.println("SEARCH_ANNO <anno>");
             System.out.println("CTRL+C per uscire");
 
             String userInput;
